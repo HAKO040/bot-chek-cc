@@ -5,7 +5,7 @@ try:
 except:
     import os
     os.system("pip install pyTelegramBotAPI")
-from telebot import *
+from telebot import telebot
 from GATEAU import Tele
 from colorama import Fore
 sto = {"stop":False}
