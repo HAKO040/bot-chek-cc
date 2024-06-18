@@ -21,16 +21,6 @@ hours = now.hour
 ran= ['45','56','34','12','66','67','90','89','44','65','32','97','58']
 pr =random.choice(ran)
 
-
-@bot.message_handler(commands=["start"])
-def start(message):
-	id = message.from_user.id
-	if not id == admin:
-		bot.reply_to(message,'البوت خاص بالمالك فقط\n @H_D_il / @H_D_il')
-	else:
-			bot.reply_to(message,"Send the file now \n ارسل الملف الان")
-
-
 def StripeChargebot(ccx):
 	import requests
 	import time
