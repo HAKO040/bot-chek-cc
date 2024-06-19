@@ -13,7 +13,7 @@ from uuid import uuid4
 #YASIR_@PR_7N 
 #ااي مشكله تعالي. 
 psw = [loka]
-tok = ""
+tok = "6693902485:AAFW-xYUBSOuAQdcxtEnh7zYFWqZNCb5Nz4"
 bot = telebot.TeleBot(tok)
 go = types.InlineKeyboardButton(text ="بدء الصيد",callback_data = "YASIR1")
 my = types.InlineKeyboardButton(text ="YASIR-ياسر",url ="https://t.me/PR_7N")
