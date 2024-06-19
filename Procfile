@@ -1,1 +1,1 @@
-worker: python $# StripeCharge BotChk.py
+worker: python insta.py
