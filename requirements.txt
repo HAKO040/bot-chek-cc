@@ -2,3 +2,4 @@ telebot
 flask
 bs4
 colorama
+pycountry
