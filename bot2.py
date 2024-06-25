@@ -30,7 +30,7 @@ def main(message):
     ch = 0
     live = 0
     dd = 0
-    koko = bot.reply_to(message, "CHECKING STARTED BY MAHOS ✅...⌛").message_id
+    koko = bot.reply_to(message, "CHECKING STARTED BY KAYDO ✅...⌛").message_id
     ee = bot.download_file(bot.get_file(message.document.file_id).file_path)
 
     with open("combo.txt", "wb") as w:
@@ -322,7 +322,7 @@ def main(message):
 - 𝐎𝐓𝐇𝐄𝐑 ⇾ {currency} - {country_iso_a2} - {country_iso_a3}
 - 𝐓𝐢𝐦𝐞⇾{duration}s
 ━━━━━━━━━━━━━━━━━
-◆ 𝐁𝐘: @maho_s9
+◆ 𝐁𝐘: @H_A_ko
                     """
                     bot.reply_to(message, msg)
 
@@ -350,7 +350,7 @@ def main(message):
 - 𝐎𝐓𝐇𝐄𝐑 ⇾ {currency} - {country_iso_a2} - {country_iso_a3}
 - 𝐓𝐢𝐦𝐞 ⇾{duration}s
 ━━━━━━━━━━━━━━━━━
-◆ 𝐁𝐘: @maho_s9
+◆ 𝐁𝐘: @H_A_ko
                     """
                     bot.reply_to(message, msg2)
 
@@ -368,7 +368,7 @@ def main(message):
 - 𝐎𝐓𝐇𝐄𝐑 ⇾ {currency} - {country_iso_a2} - {country_iso_a3}
 - 𝐓𝐢𝐦𝐞 ⇾{duration}s
 ━━━━━━━━━━━━━━━━━
-◆ 𝐁𝐘: @maho_s9
+◆ 𝐁𝐘: @H_A_ko
             """
                     bot.reply_to(message, msg3)
 
