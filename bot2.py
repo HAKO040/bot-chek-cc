@@ -302,7 +302,7 @@ def main(message):
                 stop = types.InlineKeyboardButton(f"[ 𝐒𝐓𝐎𝐏 ]", callback_data='stop')
                 mes.add(cm1, status, cm3, cm4, cm5, cm6, stop)
                 bot.edit_message_text(chat_id=message.chat.id, message_id=koko,
-                                      text='''WAITING MONEY ➜ @maho_s9 ''', reply_markup=mes)
+                                      text='''WAITING MONEY ➜ @H_A_ko''', reply_markup=mes)
                 if any(keyword in res.text for keyword in
                        ["live", "success", "Your card has insufficient funds", "insufficient funds",
                         "Payment success", "Thank you for your support.", "insufficient_funds",
