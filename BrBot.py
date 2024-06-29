@@ -5,9 +5,9 @@ from user_agent import generate_user_agent
 
 user_agent = generate_user_agent()
 
-bot = telebot.TeleBot('6426331820:AAGY7Zk8ViJ1uSaUMv5EDdXIbxg3kU7oWRk')
+bot = telebot.TeleBot('7028591280:AAHLohgKXm3P3wh6C0GXjIjpCXMOloufC8Q')
 
-authorized_user_ids = [1667594079, 1279901274, 5266567729, 1946934338, 6173592610]
+authorized_user_ids = [7168909426, 1279901274]
 authorized_chat_ids = [-1001914774158, -1001701395932, -1001973816710, -1001933244351]#, -1001933244351
 
 last_auth_time = {}
